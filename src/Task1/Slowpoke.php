@@ -11,6 +11,6 @@ class Slowpoke implements Pokemon
 
 	public function imageUrl(): string
 	{
-		return '<img src = "https://img.pokemondb.net/artwork/slowpoke.jpg" alt="Slowpoke"/>';
+		return '<img src="https://img.pokemondb.net/artwork/slowpoke.jpg" alt="Slowpoke"/>';
 	}
 }

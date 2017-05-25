@@ -12,6 +12,6 @@ class Psyduck implements Pokemon
 
 	public function imageUrl(): string
 	{
-		return '<img src = "https://img.pokemondb.net/artwork/psyduck.jpg" alt="Psyduck"/>';
+		return '<img src="https://img.pokemondb.net/artwork/psyduck.jpg" alt="Psyduck"/>';
 	}
 }

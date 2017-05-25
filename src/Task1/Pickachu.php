@@ -11,7 +11,7 @@ class Pickachu implements Pokemon
 
 	public function imageUrl(): string
 	{
-		return '<img src = "https://img.pokemondb.net/artwork/pikachu.jpg" alt="Pikachu"/>';
+		return '<img src="https://img.pokemondb.net/artwork/pikachu.jpg" alt="Pikachu"/>';
 	}
 	
 	

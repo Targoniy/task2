@@ -12,6 +12,6 @@ class Bulbasaur implements Pokemon
 
 	public function imageUrl(): string
 	{
-		return '<img src = "https://img.pokemondb.net/artwork/bulbasaur.jpg" alt="Bulbasaur"/>';
+		return '<img src="https://img.pokemondb.net/artwork/bulbasaur.jpg" alt="Bulbasaur"/>';
 	}
 }
