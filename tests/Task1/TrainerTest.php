@@ -16,6 +16,11 @@ class TrainerTest extends TestCase
      * @var PokemonTrainer
      */
     private $trainer;
+    protected function setUp()
+    {
+        parent::setUp();
+        $this->trainer = new PokemonTrainer();
+    }
     
     public function test_can_create_pickachu()
     {
